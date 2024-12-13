@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Web Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f7f7f7;">
+    <header style="background-color: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px;">
+            <div style="display: flex; align-items: center;">
+                <img alt="Logo" style="height: 40px;" src="https://storage.googleapis.com/a1aa/image/uWmgqw8IHNa2FlJit52fk59oFxPXeUeeehDwfEPjXroPihoeJA.jpg"/>
+                <nav style="margin-left: 20px;">
+                    <a href="#" style="color: #4A4A4A; margin-right: 20px;">Trang chủ</a>
+                    <a href="#" style="color: #4A4A4A; margin-right: 20px;">Đặt món</a>
+                    <a href="#" style="color: #4A4A4A; margin-right: 20px;">Giới thiệu</a>
+                    <a href="#" style="color: #4A4A4A; margin-right: 20px;">Khuyến mại</a>
+                </nav>
+            </div>
+            <div style="display: flex; align-items: center;">
+                <i class="fas fa-shopping-cart" style="color: #4A4A4A;"></i>
+                <span style="margin-left: 10px; color: #4A4A4A;">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main style="max-width: 1200px; margin: 0 auto; padding: 30px;">
+        <div style="background-color: #E0F7FA; padding: 20px; border-radius: 8px;">
+            <h1 style="color: #0288D1; font-weight: bold;">Đặt món nhanh mà không cần tạo tài khoản</h1>
+            <p style="color: #0288D1;">06h quán sẽ lên món.</p>
+        </div>
+        
+        <div style="display: flex; margin-top: 30px;">
+            <aside style="width: 25%; padding: 20px; background-color: #F4F4F4; border-radius: 8px;">
+                <h2 style="color: #4A4A4A; font-weight: bold;">Danh mục</h2>
+                <div style="margin-top: 10px;">
+                    <label style="display: block;">
+                        <input type="radio" name="category" checked style="margin-right: 10px;"/> Tất cả sản phẩm
+                    </label>
+                    <label style="display: block; margin-top: 10px;">
+                        <input type="radio" name="category" style="margin-right: 10px;"/> Đồ ăn
+                    </label>
+                    <label style="display: block; margin-top: 10px;">
+                        <input type="radio" name="category" style="margin-right: 10px;"/> Đồ uống
+                    </label>
+                </div>
+            </aside>
+
+            <section style="width: 75%; padding-left: 20px;">
+                <div style="display: flex; align-items: center; margin-bottom: 20px;">
+                    <input type="text" placeholder="Tìm..." style="border: 1px solid #ccc; border-radius: 8px; padding: 10px; width: 100%;"/>
+                    <button style="margin-left: 10px; padding: 10px; background-color: #F1F1F1; border-radius: 8px;">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <button style="margin-left: 10px; padding: 10px; background-color: #F1F1F1; border-radius: 8px;">
+                        <i class="fas fa-th"></i>
+                    </button>
+                    <button style="margin-left: 10px; padding: 10px; background-color: #F1F1F1; border-radius: 8px;">
+                        <i class="fas fa-list"></i>
+                    </button>
+                </div>
+
+                <div style="display: flex; margin-bottom: 20px;">
+                    <button style="background-color: #F1F1F1; padding: 10px 20px; border-radius: 8px;">Đồ ăn</button>
+                    <button style="background-color: #F1F1F1; padding: 10px 20px; border-radius: 8px;">Đồ uống</button>
+                </div>
+
+                <div style="text-align: center; color: #B0BEC5;">
+                    <p>Chưa có sản phẩm</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
